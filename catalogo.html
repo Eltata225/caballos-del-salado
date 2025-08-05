@@ -1,81 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Catálogo | Caballos del Salado</title>
-  <link rel="icon" href="logo.png" type="image/png" />
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    .catalogo {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: center;
-      padding: 40px 20px;
-    }
-    .producto {
-      border: 1px solid #ccc;
-      background-color: #fff;
-      border-radius: 10px;
-      width: 300px;
-      padding: 15px;
-      text-align: center;
-    }
-    .producto img {
-      width: 100%;
-      border-radius: 6px;
-    }
-    .producto h2 {
-      color: #9a733f;
-      margin: 10px 0 5px;
-    }
-    .producto p {
-      font-size: 0.95rem;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 15px;
-      background-color: #9a733f;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .btn:hover {
-      background-color: #7c5a2f;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo - Caballos del Salado</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Caballos del Salado" class="logo" />
-    <h1>Catálogo de Caballos y Pilchas</h1>
+    <img src="logo.png" alt="Caballos del Salado" class="logo">
+    <h1>Caballos del Salado</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html#caballos">Caballos</a></li>
+        <li><a href="index.html#pilchas">Pilchas Criollas</a></li>
+        <li><a href="catalogo.html">Galería</a></li>
+        <li><a href="index.html#blog">Blog</a></li>
+        <li><a href="index.html#contacto">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="catalogo">
-    <div class="producto">
-      <img src="https://via.placeholder.com/300x200?text=Caballo+Criollo" alt="Caballo Criollo">
-      <h2>Caballo Criollo</h2>
-      <p>Manso · 5 años · Ideal para campo o destrezas gauchas.</p>
-      <a href="https://wa.me/5491112345678?text=Hola%2C+estoy+interesado+en+el+Caballo+Criollo." class="btn">Consultar por WhatsApp</a>
-    </div>
-    <div class="producto">
-      <img src="https://via.placeholder.com/300x200?text=Petiso+Welsh" alt="Petiso Welsh">
-      <h2>Petiso Welsh</h2>
-      <p>3 años · Perfecto para niños · Excelente carácter.</p>
-      <a href="https://wa.me/5491112345678?text=Hola%2C+me+interesa+el+Petiso+Welsh+que+venden." class="btn">Consultar por WhatsApp</a>
-    </div>
-    <div class="producto">
-      <img src="https://via.placeholder.com/300x200?text=Cuchillo+artesanal" alt="Cuchillo artesanal">
-      <h2>Cuchillo Artesanal</h2>
-      <p>Hoja de acero · Mango con alpaca · 100% artesanal.</p>
-      <a href="https://wa.me/5491112345678?text=Hola%2C+quiero+consultar+por+el+Cuchillo+artesanal." class="btn">Consultar por WhatsApp</a>
+  <section id="galeria">
+    <h2>Galería de Productos</h2>
+    <div class="destacados">
+      <div class="destacado-item">
+        <h3>Petiso Welsh - Tordillo</h3>
+        <img src="caballo1.jpg" alt="Petiso Welsh" style="width:100%; border-radius: 8px;">
+        <p>Caballo manso, ideal para niños. Excelente estado.</p>
+      </div>
+      <div class="destacado-item">
+        <h3>Recado completo</h3>
+        <img src="recado1.jpg" alt="Recado" style="width:100%; border-radius: 8px;">
+        <p>Hecho a medida. Cuero de primera y trabajo artesanal.</p>
+      </div>
     </div>
   </section>
 
