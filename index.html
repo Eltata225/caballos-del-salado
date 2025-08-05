@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,6 +8,7 @@
 </head>
 <body>
   <header>
+    <img src="/ruta/a/tu/logo.png" alt="Caballos del Salado" class="logo">
     <h1>Caballos del Salado</h1>
     <nav>
       <ul>
@@ -21,36 +21,51 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Tradición, Nobleza y Pasión por el Campo</h2>
-      <p>Desde General Belgrano y Pilar, criamos caballos y producimos pilchas criollas auténticas con la más alta calidad artesanal.</p>
-      <a href="caballos.html" class="btn">Ver Caballos en Venta</a>
-    </section>
+  <section id="inicio">
+    <h2>Bienvenidos a Caballos del Salado</h2>
+    <p>Somos un emprendimiento familiar que combina tradición, trabajo artesanal y amor por el campo. Vendemos caballos seleccionados y pilchas criollas auténticas, creadas con pasión desde General Belgrano y Pilar.</p>
+  </section>
 
-    <section class="intro">
-      <h3>¿Quiénes somos?</h3>
-      <p>Somos un emprendimiento familiar dedicado a los caballos criollos y a la indumentaria tradicional del campo argentino. Con orgullo, compartimos nuestra pasión con quienes valoran la cultura criolla.</p>
-    </section>
+  <section class="destacados">
+    <div class="destacado-item">
+      <h3>🐎 Caballos en Venta</h3>
+      <p>Razas: criollos, cuarto de milla, cruzas con percherón y SPC, petisos Welsh y argentino. Publicamos nuevas fotos cada semana.</p>
+    </div>
+    <div class="destacado-item">
+      <h3>⚜ Pilchas Criollas</h3>
+      <p>Cabezadas, lazos, cuchillos, recados y platería artesanal. Todo hecho a mano por nuestros maestros sogueros, plateros y boteros.</p>
+    </div>
+    <div class="destacado-item">
+      <h3>📲 Seguinos en Redes</h3>
+      <p>Mostramos el trabajo en el campo, la fabricación artesanal y los productos terminados.</p>
+      <div class="redes-sociales">
+        <a href="https://www.instagram.com/caballosdelsalado/" target="_blank">Instagram</a>
+        <a href="https://www.youtube.com/@caballosdelsalado" target="_blank">YouTube</a>
+        <a href="https://www.facebook.com/profile.php?id=61579123401801" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </section>
 
-    <section class="destacados">
-      <div class="destacado-item">
-        <h4>🐎 Caballos Seleccionados</h4>
-        <p>Razas: Criollos, Cuarto de Milla, Percherón, SPC, Petisos Welsh y Petisos Argentinos.</p>
-      </div>
-      <div class="destacado-item">
-        <h4>🧵 Pilchas Artesanales</h4>
-        <p>Cabezadas, recados, cuchillos, lazos y más, hechos por sogueros, plateros y boteros expertos.</p>
-      </div>
-      <div class="destacado-item">
-        <h4>🌾 Conexión con el Campo</h4>
-        <p>Mostramos nuestro día a día en redes y compartimos el proceso detrás de cada producto.</p>
-      </div>
-    </section>
-  </main>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 General Belgrano y Pilar, Buenos Aires</p>
+    <p>📧 <a href="mailto:caballosdelsalado01@gmail.com">caballosdelsalado01@gmail.com</a></p>
+    <p>📞 +54 9 11 1234 5678</p>
+    <form action="https://formsubmit.co/caballosdelsalado01@gmail.com" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <input type="hidden" name="_captcha" value="false">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Caballos del Salado - Todos los derechos reservados.</p>
+    <p>&copy; 2025 Caballos del Salado. Todos los derechos reservados.</p>
+    <p>Seguinos en nuestras redes para conocer más de nuestro trabajo</p>
   </footer>
 </body>
 </html>
