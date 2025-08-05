@@ -4,8 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Catálogo | Caballos del Salado</title>
-  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="icon" href="logo.png" type="image/png" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .catalogo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .producto {
+      border: 1px solid #ccc;
+      background-color: #fff;
+      border-radius: 10px;
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .producto h2 {
+      color: #9a733f;
+      margin: 10px 0 5px;
+    }
+    .producto p {
+      font-size: 0.95rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #9a733f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background-color: #7c5a2f;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -22,19 +62,19 @@
     <div class="producto">
       <img src="https://via.placeholder.com/300x200?text=Caballo+Criollo" alt="Caballo Criollo">
       <h2>Caballo Criollo</h2>
-      <p>Edad: 5 años · Manso de andar · Ideal para campo y doma.</p>
+      <p>Manso · 5 años · Ideal para campo o destrezas gauchas.</p>
       <a href="https://wa.me/5491112345678?text=Hola%2C+estoy+interesado+en+el+Caballo+Criollo." class="btn">Consultar por WhatsApp</a>
     </div>
     <div class="producto">
       <img src="https://via.placeholder.com/300x200?text=Petiso+Welsh" alt="Petiso Welsh">
       <h2>Petiso Welsh</h2>
-      <p>Edad: 3 años · Perfecto para niños · Excelente carácter.</p>
+      <p>3 años · Perfecto para niños · Excelente carácter.</p>
       <a href="https://wa.me/5491112345678?text=Hola%2C+me+interesa+el+Petiso+Welsh+que+venden." class="btn">Consultar por WhatsApp</a>
     </div>
     <div class="producto">
       <img src="https://via.placeholder.com/300x200?text=Cuchillo+artesanal" alt="Cuchillo artesanal">
-      <h2>Cuchillo de plata</h2>
-      <p>Hecho a mano · Hoja de acero al carbono · Mango con alpaca.</p>
+      <h2>Cuchillo Artesanal</h2>
+      <p>Hoja de acero · Mango con alpaca · 100% artesanal.</p>
       <a href="https://wa.me/5491112345678?text=Hola%2C+quiero+consultar+por+el+Cuchillo+artesanal." class="btn">Consultar por WhatsApp</a>
     </div>
   </section>
