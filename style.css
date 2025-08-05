@@ -1,80 +1,39 @@
-body {
-  font-family: Georgia, serif;
-  background-color: #f7f1e6;
-  color: #2f2f2f;
-  margin: 0;
-  padding: 0;
-}
-header {
-  text-align: center;
-  padding: 20px;
-}
-.logo {
-  width: 130px;
-  margin-bottom: 10px;
-}
-nav ul {
-  list-style: none;
-  padding: 0;
+
+.catalogo {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
-}
-nav a {
-  text-decoration: none;
-  color: #2f2f2f;
-  font-weight: bold;
-}
-section {
+  gap: 30px;
+  justify-content: center;
   padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
 }
-section h2 {
-  color: #9a733f;
-  border-bottom: 2px solid #9a733f;
-  padding-bottom: 10px;
-}
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #e6dccf;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-input, textarea, button {
-  padding: 10px;
+.producto {
   border: 1px solid #ccc;
-  border-radius: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
 }
-button {
+.producto img {
+  width: 100%;
+  border-radius: 6px;
+}
+.producto h2 {
+  color: #9a733f;
+  margin: 10px 0 5px;
+}
+.producto p {
+  font-size: 0.95rem;
+}
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
   background-color: #9a733f;
   color: white;
-  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
 }
-.galeria {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-.galeria img {
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-}
-@media screen and (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-  }
-  .galeria {
-    flex-direction: column;
-    align-items: center;
-  }
+.btn:hover {
+  background-color: #7c5a2f;
 }
