@@ -3,114 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto - Caballos del Salado</title>
+  <title>Caballos del Salado</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      font-family: 'Georgia', serif;
-      background-color: #f7f1e6;
-      color: #2f2f2f;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #f7f1e6;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      color: #2f2f2f;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 15px;
-    }
-    nav a {
-      text-decoration: none;
-      color: #2f2f2f;
-      font-weight: bold;
-    }
-    .contacto {
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 40px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    }
-    .contacto h2 {
-      color: #9a733f;
-      margin-bottom: 20px;
-    }
-    .contacto p {
-      margin: 10px 0;
-    }
-    .contacto form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    .contacto input,
-    .contacto textarea {
-      padding: 10px;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    .contacto button {
-      background-color: #9a733f;
-      color: white;
-      padding: 12px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #e6dccf;
-      color: #2f2f2f;
-    }
-  </style>
 </head>
 <body>
-  <header>
-    <h1>Caballos del Salado</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="caballos.html">Caballos</a></li>
-        <li><a href="pilchas.html">Pilchas</a></li>
-        <li><a href="galeria.html">Galería</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+  
+<header>
+  <img src="logo.png" alt="Caballos del Salado" class="logo">
+  <h1>Caballos del Salado</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="caballos.html">Caballos</a></li>
+      <li><a href="pilchas.html">Pilchas Criollas</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <section class="contacto">
-    <h2>Contacto</h2>
-    <p>📍 General Belgrano y Pilar, Buenos Aires</p>
-    <p>📧 <a href="mailto:caballosdelsalado01@gmail.com">caballosdelsalado01@gmail.com</a></p>
-    <p>📞 +54 9 11 1234 5678</p>
-    <form action="https://formsubmit.co/caballosdelsalado01@gmail.com" method="POST">
-      <input type="text" name="nombre" placeholder="Tu nombre" required>
-      <input type="email" name="email" placeholder="Tu email" required>
-      <textarea name="mensaje" rows="5" placeholder="Escribinos tu consulta..." required></textarea>
-      <input type="hidden" name="_captcha" value="false">
-      <button type="submit">Enviar mensaje</button>
-    </form>
-  </section>
+  
+<section>
+  <h2>Contacto</h2>
+  <p>📍 General Belgrano y Pilar, Buenos Aires</p>
+  <p>📧 <a href="mailto:caballosdelsalado01@gmail.com">caballosdelsalado01@gmail.com</a></p>
+  <p>📞 +54 9 11 1234 5678</p>
+  <form action="https://formsubmit.co/caballosdelsalado01@gmail.com" method="POST">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+  
+<footer>
+  <p>&copy; 2025 Caballos del Salado | Hecho con orgullo argentino</p>
+</footer>
 
-  <footer>
-    <p>&copy; 2025 Caballos del Salado. Todos los derechos reservados.</p>
-  </footer>
 </body>
 </html>
