@@ -1,87 +1,57 @@
 
 body {
   font-family: 'Georgia', serif;
-  background-color: #f7f1e6;
+  background-color: #f9f1e7;
+  color: #333;
   margin: 0;
   padding: 0;
-  color: #2f2f2f;
 }
 header {
+  background-color: #f3e6d0;
   text-align: center;
-  background-color: #fff5e1;
-  padding: 20px;
-  border-bottom: 2px solid #9a733f;
-}
-.logo {
-  width: 120px;
-  margin-bottom: 10px;
-}
-h1 {
-  font-size: 2.5rem;
-  color: #9a733f;
-  margin: 0;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 10px 0;
-  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 2px solid #b28558;
 }
 nav a {
+  margin: 0 15px;
+  color: #4a2e14;
   text-decoration: none;
-  color: #2f2f2f;
   font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 2rem;
 }
 .hero {
-  background-image: url('https://images.unsplash.com/photo-1610737243804-1577a0a0418b');
-  background-size: cover;
-  background-position: center;
-  padding: 100px 20px;
   text-align: center;
-  color: white;
+  background-color: #fff3e0;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
 }
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px 4px #000;
+.form-container {
+  background-color: white;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-.hero p {
-  font-size: 1.2rem;
-  text-shadow: 1px 1px 2px #000;
-}
-.cta {
-  display: inline-block;
-  margin-top: 20px;
-  background-color: #9a733f;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-section {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
-}
-footer {
-  text-align: center;
-  background-color: #e6dccf;
-  padding: 20px;
-  font-size: 0.9rem;
-}
-input, textarea, button {
+input, textarea {
   width: 100%;
-  padding: 10px;
-  font-size: 1rem;
-  margin-top: 10px;
+  padding: 0.75rem;
+  margin-top: 1rem;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 button {
-  background-color: #9a733f;
+  background-color: #9c7138;
   color: white;
-  cursor: pointer;
+  padding: 0.75rem 2rem;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
 }
