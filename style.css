@@ -1,28 +1,33 @@
 
 body {
   font-family: 'Georgia', serif;
-  background-color: #fdf7ec;
-  color: #2f2f2f;
+  background-color: #f7f1e6;
   margin: 0;
   padding: 0;
+  color: #2f2f2f;
 }
 header {
-  background-color: #fff3dd;
-  padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #e0cfa9;
+  background-color: #fff5e1;
+  padding: 20px;
+  border-bottom: 2px solid #9a733f;
 }
-header h1 {
-  font-size: 2.5rem;
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 2.8rem;
+  color: #9a733f;
   margin: 0;
 }
 nav ul {
   list-style: none;
-  padding: 0;
-  margin: 15px 0 0;
   display: flex;
   justify-content: center;
   gap: 30px;
+  padding: 10px 0;
+  margin: 0;
 }
 nav a {
   text-decoration: none;
@@ -30,49 +35,51 @@ nav a {
   font-weight: bold;
 }
 .hero {
-  background-color: #eae2d0;
-  padding: 60px 20px;
+  background-image: url('https://images.unsplash.com/photo-1610737243804-1577a0a0418b');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
   text-align: center;
+  color: white;
 }
 .hero h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #000;
 }
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #000;
 }
-.btn {
-  padding: 10px 20px;
+.cta {
+  display: inline-block;
+  margin-top: 20px;
   background-color: #9a733f;
   color: white;
+  padding: 12px 20px;
   text-decoration: none;
   border-radius: 5px;
-}
-.intro, .destacados {
-  padding: 40px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-.intro h3 {
-  color: #9a733f;
-  margin-bottom: 10px;
+  font-weight: bold;
 }
 .destacados {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 40px 20px;
+  justify-content: center;
+  background-color: #fff;
 }
 .destacado-item {
   flex: 1 1 280px;
-  background: white;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
   padding: 20px;
-  border: 1px solid #e3d1b6;
-  border-radius: 8px;
+  border-radius: 10px;
+  text-align: center;
 }
 footer {
   text-align: center;
-  background-color: #f4e8d6;
+  background-color: #e6dccf;
   padding: 20px;
-  margin-top: 40px;
+  font-size: 0.9rem;
 }
