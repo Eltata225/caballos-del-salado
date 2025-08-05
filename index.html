@@ -5,105 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Caballos del Salado</title>
-  <style>
-    body {
-      font-family: 'Georgia', serif;
-      background-color: #f7f1e6;
-      color: #2f2f2f;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #f7f1e6;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-      color: #2f2f2f;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 15px;
-    }
-    nav a {
-      text-decoration: none;
-      color: #2f2f2f;
-      font-weight: bold;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    section h2 {
-      color: #9a733f;
-      border-bottom: 2px solid #9a733f;
-      padding-bottom: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #e6dccf;
-      color: #2f2f2f;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    input, textarea, button {
-      padding: 10px;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    button {
-      background-color: #9a733f;
-      color: white;
-      cursor: pointer;
-    }
-    img.logo {
-      width: 150px;
-      display: block;
-      margin: 10px auto;
-    }
-    .destacados {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 30px;
-    }
-    .destacado-item {
-      background-color: #fff;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      padding: 20px;
-      flex: 1 1 280px;
-    }
-    .destacado-item h3 {
-      color: #9a733f;
-    }
-    .redes-sociales {
-      text-align: center;
-      margin-top: 20px;
-    }
-    .redes-sociales a {
-      margin: 0 10px;
-      text-decoration: none;
-      color: #2f2f2f;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="/ruta/a/tu/logo.png" alt="Caballos del Salado" class="logo">
+    <img src="logo.png" alt="Caballos del Salado" class="logo">
     <h1>Caballos del Salado</h1>
     <nav>
       <ul>
@@ -116,34 +22,29 @@
     </nav>
   </header>
 
-  <section id="inicio">
-    <h2>Bienvenidos a Caballos del Salado</h2>
-    <p>Somos un emprendimiento familiar que combina tradición, trabajo artesanal y amor por el campo. Vendemos caballos seleccionados y pilchas criollas auténticas, creadas con pasión desde General Belgrano y Pilar.</p>
+  <section class="hero">
+    <h2>Tradición, elegancia y campo</h2>
+    <p>Descubrí nuestros caballos y artesanías criollas de primer nivel, hechos con pasión desde General Belgrano y Pilar.</p>
+    <a class="cta" href="caballos.html">Ver caballos disponibles</a>
   </section>
 
   <section class="destacados">
     <div class="destacado-item">
       <h3>🐎 Caballos en Venta</h3>
-      <p>Razas: criollos, cuarto de milla, cruzas con percherón y SPC, petisos Welsh y argentino. Publicamos nuevas fotos cada semana.</p>
+      <p>Razas: Criollos, Cuarto de Milla, cruzas Percherón, SPC, Petisos Welsh y más.</p>
     </div>
     <div class="destacado-item">
       <h3>⚜ Pilchas Criollas</h3>
-      <p>Cabezadas, lazos, cuchillos, recados y platería artesanal. Todo hecho a mano por nuestros maestros sogueros, plateros y boteros.</p>
+      <p>Cabezadas, recados, lazos, cuchillos, platería y trabajos en soga únicos.</p>
     </div>
     <div class="destacado-item">
-      <h3>📲 Seguinos en Redes</h3>
-      <p>Mostramos el trabajo en el campo, la fabricación artesanal y los productos terminados.</p>
-      <div class="redes-sociales">
-        <a href="https://www.instagram.com/caballosdelsalado/" target="_blank">Instagram</a>
-        <a href="https://www.youtube.com/@caballosdelsalado" target="_blank">YouTube</a>
-        <a href="https://www.facebook.com/profile.php?id=61579123401801" target="_blank">Facebook</a>
-      </div>
+      <h3>📲 Redes Sociales</h3>
+      <p>Seguinos y conocé el trabajo artesanal detrás de cada pieza.</p>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Caballos del Salado. Todos los derechos reservados.</p>
-    <p>Seguinos en nuestras redes para conocer más de nuestro trabajo</p>
+    <p>&copy; 2025 Caballos del Salado | Hecho con orgullo argentino</p>
   </footer>
 </body>
 </html>
