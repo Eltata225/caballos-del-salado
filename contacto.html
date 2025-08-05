@@ -1,48 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caballos del Salado</title>
+  <title>Contacto</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-<header>
-  <img src="logo.png" alt="Caballos del Salado" class="logo">
-  <h1>Caballos del Salado</h1>
-  <nav>
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="caballos.html">Caballos</a></li>
-      <li><a href="pilchas.html">Pilchas Criollas</a></li>
-      <li><a href="galeria.html">Galería</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </nav>
-</header>
-
-  
-<section>
-  <h2>Contacto</h2>
-  <p>📍 General Belgrano y Pilar, Buenos Aires</p>
-  <p>📧 <a href="mailto:caballosdelsalado01@gmail.com">caballosdelsalado01@gmail.com</a></p>
-  <p>📞 +54 9 11 1234 5678</p>
-  <form action="https://formsubmit.co/caballosdelsalado01@gmail.com" method="POST">
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    <label for="mensaje">Mensaje:</label>
-    <textarea id="mensaje" name="mensaje" required></textarea>
-    <button type="submit">Enviar</button>
-  </form>
-</section>
-  
-<footer>
-  <p>&copy; 2025 Caballos del Salado | Hecho con orgullo argentino</p>
-</footer>
-
+  <header>
+    <h1>Caballos del Salado</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="caballos.html">Caballos</a>
+      <a href="pilchas.html">Pilchas</a>
+      <a href="galeria.html">Galería</a>
+      <a href="blog.html">Blog</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <div class="form-container">
+      <h2>Contacto</h2>
+      <p>📍 General Belgrano y Pilar, Buenos Aires</p>
+      <p>📧 <a href="mailto:caballosdelsalado01@gmail.com">caballosdelsalado01@gmail.com</a></p>
+      <p>📞 +54 9 11 1234 5678</p>
+      <form>
+        <input type="text" placeholder="Tu nombre" required />
+        <input type="email" placeholder="Tu email" required />
+        <textarea placeholder="Escribinos tu consulta..." required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </main>
 </body>
 </html>
