@@ -1,37 +1,46 @@
 
 body {
-    font-family: 'Georgia', serif;
-    background-color: #f5ecdc;
     margin: 0;
-    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f6efe3;
 }
-.header {
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #f0e3cd;
-    padding: 10px 20px;
-    border-bottom: 1px solid #b08552;
+    background-color: #f6efe3;
+    padding: 10px 40px;
+    border-bottom: 2px solid #a17845;
 }
-.logo {
-    height: 60px;
+
+.logo img {
+    height: 70px;
 }
-.navbar ul {
+
+nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
-.navbar a {
+
+nav ul li a {
     text-decoration: none;
-    color: #2c1f12;
     font-weight: bold;
+    color: #3a2f1c;
 }
-.bienvenida, .razas {
-    padding: 30px;
-    background-color: #fef3df;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+main {
+    padding: 40px;
+}
+
+section.bienvenida {
+    background-color: #fbeedc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
