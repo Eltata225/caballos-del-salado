@@ -1,1 +1,14 @@
 body { font-family: 'Georgia', serif; margin: 0; padding: 0; background: #fcf7f0; color: #2f2f2f; } header { background-color: #f0e3cd; border-bottom: 2px solid #b08552; padding: 10px; display: flex; align-items: center; justify-content: space-between; position: relative; } .logo { height: 60px; } .site-title { position: absolute; left: 50%; transform: translateX(-50%); top: 12px; text-align: center; } .site-title h1 { margin: 0; font-size: 1.5rem; } .nav-links { display: flex; gap: 10px; } .nav-links a { text-decoration: none; color: #2f2f2f; font-weight: bold; } .nav-toggle { display: none; flex-direction: column; cursor: pointer; } .nav-toggle span { background: #2f2f2f; height: 3px; width: 25px; margin: 4px 0; } @media (max-width: 768px) { .nav-toggle { display: flex; } .nav-links { display: none; flex-direction: column; background: #f0e3cd; position: absolute; top: 60px; right: 10px; padding: 10px; border-radius: 5px; } .nav-links.active { display: flex; } } main { padding: 20px; } h2 { color: #9a733f; } form { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; } input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; } button { padding: 10px; background: #9a733f; color: white; border: none; border-radius: 4px; cursor: pointer; }
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-toggle {
+    position: absolute;
+    right: 15px;
+    top: 18px;
+  }
+}
